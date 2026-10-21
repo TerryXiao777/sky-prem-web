@@ -29,7 +29,7 @@ export default function Home() {
           Next.js 16 + Neon Auth + Neon Postgres
         </Badge>
         <div className="space-y-4">
-          <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
+          <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             快速筹划活动并追踪回复情况
           </h1>
           <p className="max-w-2xl text-[var(--muted-foreground)]">
@@ -50,7 +50,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid gap-4 md:grid-cols-3">
+      <section className="grid gap-5 md:grid-cols-3">
         {FEATURES.map((feature) => (
           <Card key={feature.title}>
             <CardHeader>
